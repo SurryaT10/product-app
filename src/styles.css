@@ -1,1 +1,33 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+  
+body {
+    background-color: #f9fafb;
+    color: #111827;
+    padding: 2rem;
+}
+
+.button {
+    display: inline-block;
+    background-color: #2563eb;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+  
+.button:hover {
+    background-color: #1e40af;
+}
+  
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+} 

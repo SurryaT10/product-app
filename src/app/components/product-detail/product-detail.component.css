@@ -1,0 +1,19 @@
+/* Detail page */
+.detail-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+}
+  
+.detail-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    line-height: 1.6;
+}
+  
+.detail-card p {
+    margin: 0.5rem 0;
+}
+  
