@@ -3,11 +3,12 @@ import { ProductService } from '../../services/product.service';
 import { Product } from '../../models/product.model';
 import { Router } from '@angular/router';
 import { ProductCardComponent } from '../product-card/product-card.component';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-product-list',
   templateUrl: './product-list.component.html',
-  imports: [ProductCardComponent],
+  imports: [CommonModule, ProductCardComponent],
 })
 export class ProductListComponent implements OnInit {
   products: Product[] = [];
