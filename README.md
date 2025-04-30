@@ -1,59 +1,50 @@
-# ProductApp
+# Product App
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.8.
+A simple Angular application that demonstrates component-based architecture, routing, services, and data binding.
 
-## Development server
+## 🚀 Project Overview
 
-To start a local development server, run:
+This project was built as part of a Front End Engineer assessment and includes:
+
+- A `ProductCardComponent` that displays product details with data binding.
+- A `ProductListComponent` that lists all products from a service.
+- A `ProductDetailComponent` for viewing individual product details.
+- Angular routing configured with navigation between product list and product details.
+- Styling for a clean, responsive interface.
+
+## 🛠️ Tech Stack
+
+- Angular 17
+- TypeScript
+- RxJS for Observables
+- CSS
+
+## 📦 Installation
 
 ```bash
+git clone https://github.com/your-username/product-app.git
+cd product-app
+npm install
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## 🖼️ Screenshots
+Product List Component
+![Product List](./public/screenshots/product_list.png)
 
-## Code scaffolding
+Product Detail Component
+![Product Detail](./public/screenshots/product_detail.png)
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## 📌 Features
+✅ Angular CLI setup with routing
 
-```bash
-ng generate component component-name
-```
+✅ Product card with @Input() and @Output()
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+✅ Data service using Observables
 
-```bash
-ng generate --help
-```
+✅ Routing with dynamic route for product details
 
-## Building
+✅ Simple and responsive UI
 
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## 👨‍💻 Author
+Surrya Thangamuthu
