@@ -22,7 +22,7 @@ This project was built as part of a Front End Engineer assessment and includes:
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/your-username/product-app.git
+git clone https://github.com/SurryaT10/product-app.git
 cd product-app
 npm install
 ng serve
